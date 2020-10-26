@@ -1,0 +1,9 @@
+@media (max-width: 600px) {
+    header span {
+        display: none;
+    }
+    header i {
+        visibility: visible;
+    }
+
+}
