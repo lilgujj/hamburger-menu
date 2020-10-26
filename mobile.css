@@ -1,9 +1,21 @@
 @media (max-width: 600px) {
-    header span {
+    .navbar {
         display: none;
     }
+
+    header {
+        transition: all 0.3s ease-in-out;
+    }
+
+    .navbar span {
+        display: flex;
+        margin: 1rem;
+        font-size: 4rem;
+    }
+
     header i {
         visibility: visible;
+        
     }
 
 }
